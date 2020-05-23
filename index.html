@@ -1,22 +1,114 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8"/>
-    <title>Site do Bruno</title>
-    <link rel="stylesheet" href="./css/estilos.css">
-	
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bruno Trevissoi</title>
+  <link rel="stylesheet" href="./css/estilos.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel&family=Press+Start+2P&family=Tangerine:wght@700&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/327c4a3e3f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-      <nav class="menu">
-        <ul>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Portifólio</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
-      <h1 class="site-title">Bruno</h1>
-      <h2 class="site-subtitle">Web Developer</h2>
-    </header>
+  <header>
+    <nav class="menu">
+      <ul class="container">
+        <li><a href="#abount">Abount</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="titulo">
+      <h1 class="site-title">Bruno Trevissoi</h1>
+      <h2 class="site-subtitle">IT – Information Technology</h2>
+    </div>
+  </header>
+  <section class="abount container" id="abount">
+    <h2>
+      Abount
+    </h2>
+    <figure class="avatar">
+      <img src="http://img.podnova.com/icons_pandroid/jpg/big/9/9579.jpg" alt="luffy">
+    </figure>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi blanditiis ducimus, quo, dolorum aliquam corporis
+      aut labore accusamus dolorem quisquam, alias laborum voluptatum recusandae voluptates impedit harum saepe eos
+      odit!
+    </p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi blanditiis ducimus, quo, dolorum aliquam corporis
+      aut labore accusamus dolorem quisquam, alias laborum voluptatum recusandae voluptates impedit harum saepe eos
+      odit!
+    </p>
+  </section>
+  <section class="experience container" id="experience">
+    <h2>Experience</h2>
+    <div class="grid">
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-experience" src="./img/computing technician.jpg" alt="Computing Technician">
+            <figcaption>Computing Technician</figcaption>
+          </figure>
+          <div class="card-back">
+            Parte de trás 1
+          </div>
+        </div>
+      </div> 
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-experience" src="./img/network support.jpg" alt=">Network Support">
+            <figcaption>Network Support</figcaption>
+          </figure>
+          <div class="card-back">
+            Parte de trás 2
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-experience" src="./img/cloud computing.jpg" alt="Cloud Computing">
+            <figcaption>Cloud Computing</figcaption>
+          </figure>
+          <div class="card-back">
+            Parte de trás 3
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-experience" src="./img/computer programmer.jpg" alt="Software Developer">
+            <figcaption>Software Developer</figcaption>
+          </figure>
+          <div class="card-back">
+            Parte de trás 4
+          </div>
+        </div>
+      </div> 
+    </div>
+  </section>
+  <section class="contacto container" id="contact">
+    <h2>Contact</h2>
+    <div class="grid icons">
+      <a target="_blank" href="https://github.com/trevissoibruno/">
+        <i class="fab fa-github-alt"></i>
+      </a>
+      <a target="_blank" href="https://www.facebook.com/bruno.snk">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a target="_blank" href="www.linkedin.com/in/bruno-trevissoi">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:bruno_snk2@hotmail.com">
+        <i class="fas fa-at"></i>
+      </a>
+    </div>
+  </section>
 </body>
+
 </html>
